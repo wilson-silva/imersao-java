@@ -11,18 +11,20 @@ aprender novos conceitos de API.
 
 ### Aula 01
 Construído uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares.
+
 API utilizada:
 https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopTVs.json
 
 ![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela1.png)
 
 ### Aula 02
-Criado um gerador de figurinhas explorando outras bibliotecas nativas do Java, para que possamos enviar por Whatsapp
+Criado um gerador de figurinhas explorando outras bibliotecas nativas do Java, para que possamos enviar por Whatsapp.
 
 ![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela2.png)
 
 ### Aula 03
-Nesta aula refatoramos o código, usando Programação Orientado a Objetos
+Nesta aula refatoramos o código, usando Programação Orientado a Objetos.
+
 Foi separado as responsibilidades e deixando o código mais coeso e escalável.
 
 Ex: Criação da interface ExtratoeDeConteudo onde a partir dela podemos 
