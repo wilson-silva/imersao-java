@@ -11,6 +11,8 @@ aprender novos conceitos de API.
 
 ### Aula 01
 Construído uma aplicação do zero para consumir a API do IMDb e exibir os filmes mais populares.
+API utilizada:
+https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopTVs.json
 
 ![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela1.png)
 
@@ -25,6 +27,10 @@ Foi separado as responsibilidades e deixando o código mais coeso e escalável.
 
 Ex: Criação da interface ExtratoeDeConteudo onde a partir dela podemos 
 consumir dados de outras api, que tenham título e imagem em seu Json.
+
+Usado api da Nasa como exemplo
+https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14
+
 
 ### Como executar o projeto
 
