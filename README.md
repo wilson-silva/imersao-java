@@ -33,6 +33,10 @@ consumir dados de outras api, que tenham título e imagem em seu Json.
 Usado api da Nasa como exemplo
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14
 
+### Aula 04
+construído uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
+
+![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela3.png)
 
 ### Como executar o projeto
 
@@ -41,6 +45,7 @@ Pré-requisitos:
 * Java 17 ou versões superiores.
 * Intellj IDEA Community Edition ou sua IDE favorita.
 * Controle de versão GIT instalado na sua máquina.
+* MongoDB (Usado versão atlas free na nuvem)
 
 ```bash
 
@@ -59,6 +64,9 @@ java App
 ### Técnicas e tecnologias utilizadas
 - Java
 - Intellij
+- Spring Boot
+- Maven
+- MongoDB
 
 
 ### Autor
