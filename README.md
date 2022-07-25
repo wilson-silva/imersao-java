@@ -27,7 +27,7 @@ Nesta aula refatoramos o código, usando Programação Orientado a Objetos.
 
 Foi separado as responsibilidades e deixando o código mais coeso e escalável.
 
-Ex: Criação da interface ExtratoeDeConteudo onde a partir dela podemos 
+Ex: Criação da interface ExtratorDeConteudo onde a partir dela podemos 
 consumir dados de outras api, que tenham título e imagem em seu Json.
 
 Usado api da Nasa como exemplo

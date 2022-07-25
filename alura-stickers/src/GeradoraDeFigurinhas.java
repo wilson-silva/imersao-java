@@ -32,9 +32,8 @@ public class GeradoraDeFigurinhas {
         graphics.setColor(Color.YELLOW);
         graphics.setFont(font);
 
-
         // escrever uma frase na nova imagem
-        String text = "TOPZERA!!!";
+        String text = "TOP";
         int tamanhoFrase = graphics.getFontMetrics().stringWidth(text);
         int localFrase = (novaImagem.getWidth() - tamanhoFrase) / 2;
         graphics.drawString(text, localFrase, novaAltura - 100);
