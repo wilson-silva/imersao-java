@@ -37,6 +37,8 @@ https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_d
 Construído uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
 É possível rodar a aplicação alura-stickers para consumir esta nossa api, gerandando assim as figurinhas das linguagens cadastradas.
 
+Página para fazer o registro e começar a utilizar o MongoDb Atlas - https://www.mongodb.com/cloud/atlas/register.
+
 ![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela3.png)
 
 ### Como executar o projeto
