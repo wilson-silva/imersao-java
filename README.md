@@ -34,7 +34,8 @@ Usado api da Nasa como exemplo
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14
 
 ### Aula 04
-construído uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
+Construído uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
+É possível rodar a aplicação alura-stickers para consumir esta nossa api, gerandando assim as figurinhas das linguagens cadastradas.
 
 ![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela3.png)
 
@@ -52,12 +53,24 @@ Pré-requisitos:
 # clonar repositório
 git clone https://github.com/wilson-silva/imersao_java
 
+# --- Rodar aplicação alura-stickers ---
+
 # entrar na pasta do projeto alura-stickers/src
 cd src ou abrir o bash dentro da pasta
 
 # executar o projeto no terminal
 javac App.java
 java App
+
+#------------------------------------------------------
+
+# --- Rodar aplicação linguagens-api ---
+
+# entrar na pasta do projeto linguagems-api
+cd linguagems-api ou abrir o bash dentro da pasta
+
+# executar o projeto
+./mvnw spring-boot:run
 
 ```
 
