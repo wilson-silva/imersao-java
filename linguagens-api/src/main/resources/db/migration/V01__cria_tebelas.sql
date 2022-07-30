@@ -1,0 +1,7 @@
+CREATE TABLE Linguagem (
+id VARCHAR(255) PRIMARY KEY,
+title VARCHAR(255) NOT NULL,
+image VARCHAR(255) NOT NULL,
+ranking INT
+);
+

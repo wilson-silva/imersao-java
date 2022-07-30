@@ -34,10 +34,9 @@ Usado api da Nasa como exemplo
 https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14
 
 ### Aula 04
-Construído uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados NoSQL.
+Construído uma API REST para expor nosso próprio conteúdo, utilizando ferramentas profissionais como o Spring Framework e um banco de dados H2.
 É possível rodar a aplicação alura-stickers para consumir esta nossa api, gerandando assim as figurinhas das linguagens cadastradas.
 
-Página para fazer o registro e começar a utilizar o MongoDb Atlas - https://www.mongodb.com/cloud/atlas/register.
 
 ![Modelo Conceitual](https://github.com/wilson-silva/imersao_java/blob/main/tela3.png)
 
@@ -48,7 +47,7 @@ Pré-requisitos:
 * Java 17 ou versões superiores.
 * Intellj IDEA Community Edition ou sua IDE favorita.
 * Controle de versão GIT instalado na sua máquina.
-* MongoDB (Usado versão atlas free na nuvem)
+* Banco H2
 
 ```bash
 
@@ -81,7 +80,8 @@ cd linguagems-api ou abrir o bash dentro da pasta
 - Intellij
 - Spring Boot
 - Maven
-- MongoDB
+- Banco H2
+- Flyway
 
 
 ### Autor
